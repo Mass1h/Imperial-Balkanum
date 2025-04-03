@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial Balkanum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .discord-widget {
+            margin-top: 20px;
+        }
+        .news {
+            margin-top: 40px;
+            padding: 20px;
+            background: #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Imperial Balkanum</h1>
+        <p>سرور رول پلی برای سرگرمی و دورهمی</p>
+
+        <!-- ویجت دیسکورد -->
+        <div class="discord-widget">
+            <iframe src="https://discord.com/widget?id=1061712706077478972&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+
+        <!-- بخش اخبار -->
+        <div class="news">
+            <h2>اخبار سرور</h2>
+            <ul>
+                <li>🎉 آپدیت جدید برای رول پلی اضافه شد!</li>
+                <li>📢 قوانین جدید به سرور اضافه شد.</li>
+                <li>🔥 ایونت ویژه آخر هفته برگزار خواهد شد!</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
